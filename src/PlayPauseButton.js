@@ -1,5 +1,5 @@
 import { useSelector, useStore } from "react-redux";
-import { autoplay } from "./store";
+import { autoplay } from "./actions";
 import { selectGameIsPlaying } from "./selectors";
 
 export function PlayPauseButton() {

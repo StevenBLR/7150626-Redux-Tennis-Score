@@ -1,6 +1,6 @@
 // on import useDispatch depuis react-redux
 import { useDispatch } from "react-redux";
-import { pointScored } from "./store";
+import { pointScored } from "./actions";
 
 export function PointScoredButton({ playerId, children }) {
   const dispatch = useDispatch();
